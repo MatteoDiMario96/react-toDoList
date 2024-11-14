@@ -1,8 +1,43 @@
-# React + Vite
+# React To-Do-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+"Create a To-Do-List dynamic with CRUD. For the final save the data for the local storage for not lost the list."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funzionalità 
+
+- Add a new ToDo.
+- Delete an existing Todo.
+- Edit, deleting the ToDo in the list for add at the input for make edit and after again put in the list.
+
+## Technologies used
+
+- React: per costruire l'interfaccia utente.
+- JavaScript: per la logica e gestione dello stato.
+
+## Installation 
+
+1. Clona la repository: 
+    ```bash
+        git clone https://github.com/MatteoDiMario96/react-toDoList
+
+2. Go to the directory of the project: 
+    ```bash
+        cd react-toDoList
+
+3. Install the dependency:
+    ```bash
+        npm install
+
+4. Run your application in localhost:
+    ```bash
+        npm run dev
+
+## Utility
+
+1. Add a new To-do in the list
+2. Edit a To-do present in the list 
+3. Delete a To-do present in the list 
+
+## Author 
+Matteo Di Mario 
